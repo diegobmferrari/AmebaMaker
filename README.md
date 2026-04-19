@@ -1,24 +1,20 @@
-# AmebaMaker
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Projeto acadêmico desenvolvido para criação de imagens orgânicas de forma simples e intuitiva.
+# Run and deploy your AI Studio app
 
-## 📌 Funcionalidades
-- Geração de formas orgânicas (amebas)
-- Personalização de cores
-- Ajuste de tamanho
-- Exportação em diferentes formatos
+This contains everything you need to run your app locally.
 
-## 🚀 Tecnologias utilizadas
-- HTML5
-- CSS3
-- JavaScript
+View your app in AI Studio: https://ai.studio/apps/fb3c9a9a-48ec-4134-8d5b-c4edde7c9b97
 
-## ▶️ Como executar
-1. Baixe os arquivos do projeto
-2. Abra o arquivo `index.html` no navegador
+## Run Locally
 
-## 📚 Objetivo acadêmico
-Este projeto foi desenvolvido com o objetivo de aplicar conceitos de desenvolvimento web e explorar a criação dinâmica de elementos visuais.
+**Prerequisites:**  Node.js
 
-## 👨‍💻 Autor
-- Diego Ferrari
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
